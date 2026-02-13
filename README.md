@@ -38,11 +38,11 @@ ORDER BY c.data_consulta DESC;
 
 ###2. Filtragem de dados (WHERE)
 
-SELECT nome, raca, data_nascimento
+```SELECT nome, raca, data_nascimento
 FROM animais
 WHERE especie = 'Felino'
 AND status = 'Ativo';
-
+```
 
 ## 🎯 Objetivo
 Desenvolver uma estrutura de dados robusta para suporte à decisão clínica, unindo minha experiência na medicina veterinária com as melhores práticas de engenharia de software.
@@ -57,3 +57,4 @@ O maior desafio foi modelar a relação N:N (Muitos para Muitos) entre Procedime
 
 
 ⚠️ Nota sobre Segurança: Este projeto utiliza dados fictícios para fins de demonstração. Em um ambiente de produção, os dados dos proprietários (CPF, Telefone) seriam tratados seguindo os protocolos da LGPD para garantir a privacidade dos clientes.
+

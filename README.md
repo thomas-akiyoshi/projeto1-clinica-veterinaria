@@ -40,8 +40,8 @@ ORDER BY c.data_consulta DESC;
 
 ```SELECT nome, raca, data_nascimento
 FROM animais
-WHERE especie = 'Felino'
-AND status = 'Ativo';
+WHERE especie = 'Felina'
+;
 ```
 
 ## 🎯 Objetivo
@@ -57,4 +57,5 @@ O maior desafio foi modelar a relação N:N (Muitos para Muitos) entre Procedime
 
 
 ⚠️ Nota sobre Segurança: Este projeto utiliza dados fictícios para fins de demonstração. Em um ambiente de produção, os dados dos proprietários (CPF, Telefone) seriam tratados seguindo os protocolos da LGPD para garantir a privacidade dos clientes.
+
 
